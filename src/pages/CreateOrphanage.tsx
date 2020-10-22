@@ -174,7 +174,7 @@ export default function CreateOrphanage() {
                 </button>
                 <button 
                   type="button"
-                  className={ !open_on_weekends ? 'active' : ''}
+                  className={ !open_on_weekends ? 'activeRed' : ''}
                   onClick={() =>{setOpenOnWeekends(false)}}
                 >
                   Não
